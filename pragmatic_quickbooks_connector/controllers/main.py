@@ -26,7 +26,7 @@ class Custom_Quickbook_controller(http.Controller):
                 
                 #Get access token from auth code
                 raw_b64 = str(client_id + ":" + client_secret)
-                raw_b64 = raw_b64.encode('utf-8')
+                #raw_b64 = raw_b64.encode('utf-8')
                 converted_b64 = base64.b64encode(raw_b64).decode('utf-8')
                 auth_header = 'Basic '+ converted_b64
                 headers = {}
