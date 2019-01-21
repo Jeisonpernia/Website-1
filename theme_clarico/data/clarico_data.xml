@@ -50,5 +50,10 @@
 			<field name="website_meta_description"></field>
 			<field name="website_meta_keywords"></field>
 		</record>  -->
+		<!--  <record id="clarico_wishlist.clarico_wishlist_wishlist_template" model="ir.ui.view">
+			<field name="website_meta_title">Clarico Wishlist</field>
+			<field name="website_meta_description"></field>
+			<field name="website_meta_keywords"></field>
+		</record>-->
 	</data>
 </odoo>
